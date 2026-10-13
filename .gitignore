@@ -1,0 +1,40 @@
+# --- Unity: кэш и временные файлы (пересоздаются сами) ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# --- Файлы IDE (VS Code / Rider / Visual Studio генерируют сами) ---
+.vscode/
+.idea/
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- Билды ---
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# --- macOS ---
+.DS_Store
+
+# --- Папка с файлами Claude, которые надо удалить (не часть проекта) ---
+/_to_delete/
